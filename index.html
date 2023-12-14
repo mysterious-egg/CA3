@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Owl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/sleepy-owl-fave-removebg-preview.png" height="50px" width="50x" alt="">
+            <div>
+                <h2>Night</h2>
+                <h2 class="brown">Owl</h2>
+            </div>
+        </nav>
+    </header>
+    <div class="mid">
+        <div class="mid-text">
+            <h1>Recipies<br> <span class="brown">Experiences</span> and memory <br>with Night Owl</h1>
+            <h4><span class="brown">Search and</span> flourish the chef inside you</h4>
+            <div class="search-box">
+                    <input class="search-input" id="myInput" type="text" placeholder="Search for Categories..." name="search">
+                <button class="search-submit" type="submit"><i class="fa fa-search" style="color: #D6C7AE"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Random-Meal">
+        <h4><span class="brown">Test your skill</span> can try this out </h4>
+        <div class="food-card">
+        </div>
+    </div>
+    <div class="Search-results">
+        <h4 id="searchHeading"> Results matching your<span class="brown"> Searches</span></h4>
+        <div class="horizontal-scroll-wrapper">
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
